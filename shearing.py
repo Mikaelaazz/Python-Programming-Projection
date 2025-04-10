@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 # Ganti dengan path absolut yang benar ke gambar Anda
-image_path = r'E:\Back Up E\Tugas Kuliah Semester 4\PCD\Tugas 2\images.jpg'
+image_path = cv2.imread(r'path image')
 
 # 1. Verifikasi file ada
 if not os.path.exists(image_path):

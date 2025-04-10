@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt  # Untuk alternatif display
 
 # Ganti dengan path lengkap ke gambar Anda
-image_path = r'E:\Back Up E\Tugas Kuliah Semester 4\PCD\Tugas 2\images.jpg'
+image_path = cv2.imread(r'path image')
 
 print(f"Mencoba membuka file di: {image_path}")
 

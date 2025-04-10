@@ -3,7 +3,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Path gambar - GANTI DENGAN PATH ANDA
-image_path = r'E:\Back Up E\Tugas Kuliah Semester 4\PCD\Tugas 2\images.jpg'
+image_path = cv2.imread(r'path image')
 
 # Cek file exist
 if not os.path.exists(image_path):

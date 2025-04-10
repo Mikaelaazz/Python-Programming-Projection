@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load image dengan path yang benar
-img = cv2.imread(r'E:\Back Up E\Tugas Kuliah Semester 4\PCD\Tugas 2\images.jpg')
+img = cv2.imread(r'path image')
 if img is None:
     print("Error: Gambar tidak bisa dibaca. Periksa path file.")
     exit()

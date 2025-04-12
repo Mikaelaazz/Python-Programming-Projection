@@ -1,30 +1,59 @@
 # Python-Programming-Projection
 
-## Usage
-`Install Python`
-[Download Python](https://www.python.org/downloads/)
+## Instalasi Python
+- Unduh Python versi terbaru dari [website resmi Python](https://www.python.org/downloads/)
+- Pastikan untuk mencentang opsi "Add Python to PATH" saat instalasi agar Python dapat diakses dari terminal/CMD
+- Verifikasi instalasi dengan menjalankan perintah di terminal/CMD :
 
-- Next Install Library
+```python --version```
 
-```pip install numpy matplotlib opencv``` 
+atau 
 
-## Running File
-[Git Clone](https://github.com/Mikaelaazz/Python-Programming-Projection.git)
+```python3 --version```
 
-`Buka File yang sudah kamu download dari github ini `
 
-`Buka IDE yang anda gunakan sehari hari`
+## Instalasi Library
 
-`Lalu pilih file yang anda inginkan`
-- Pastikan Library telah terinstall jika belum maka lakukan cara seperti USAGE
-- Sebelum running pastikan anda telah melokasikan gambar sesuai dengan lokasi file anda
-```py img = cv2.imread(r'path image')```
+Jalankan perintah berikut di terminal/CMD untuk menginstal library yang dibutuhkan
 
-- Jalankan file yang anda inginkan dari terminal dan gunakan syntax
-```py namafile.py```
+```pip install numpy matplotlib opencv-python``` 
+
+Jika menggunakan Python 3 dan pip3 :
+
+```pip3 install numpy matplotlib opencv-python```
+
+
+## Mengunduh File dari Repositori
+- Buka terminal/CMD dan jalankan perintah berikut untuk mengklon 
+[Repositori](https://github.com/Mikaelaazz/Python-Programming-Projection.git)
+
+- Jika tidak memiliki Git, unduh langsung dari [Github]() dalam format ZIP dan Ekstrak File ZIP tersebut
+
+## Panduan Pengguna 
+
+#### 1. Menyiapkan Gambar
+- Siapkan gambar yang ingin diproses di folder yang sama dengan file Python.
+- Edit Path Gambar di dalam kode sebelum menjalankannya. Contoh :
+
+```img = cv2.imread(r'namagambar.jpg')```
+
+atau 
+
+```img = cv2.imread(r'C:\path\ke\gambar.jpg')```
+
+#### 2. Menjalankan File
+- Buka terminal/CMD di folder tempat file disimpan
+- Jalankan script dengan perintah
+
+```python namafile.py```
+
+contoh
+
+```python translation.py```
+
 
 ## Output
-### Projection Image
+### 1. Projection Image
 - Translation
 ![image](./img/translation.png) 
 - Rigid
@@ -42,10 +71,10 @@
 - Reflection
 ![image](./img/reflection.png) 
 
-### Histogram
+### 2. Histogram
 - Histogram
 ![image](./img/histogram.png) 
 
-### Color Conversion
+### 3. Color Conversion
 - Color Conversion
 ![image](./img/color_conv.png) 
